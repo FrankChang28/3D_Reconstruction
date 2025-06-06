@@ -4,6 +4,7 @@
 核心模型設計主要參考《Enhanced Camera Relocalization Through Optimized Accelerated Coordinate Encoding Network and Pose Solver》架構作修改
 
 📁 資料集準備
+
 本專案使用的是 7-Scenes 資料集。在執行訓練或測試程式碼之前，請完成以下準備步驟：
 
 建議在 Colab 中掛載Google 雲端檔案(省去download時間)
@@ -48,6 +49,7 @@ Google Colab
 
 
 🚀 執行流程
+
 當環境與資料集準備就緒後，請依下列步驟依序執行：
 
 掛載 Google Drive 並設置資料集路徑
@@ -67,6 +69,7 @@ training
 (基本上只要依序執行即可)
 
 📦 輸出結果
+
 在完成測試與 bonus 部分後，最終結果將會儲存於：
 
 ./content/test
@@ -76,4 +79,5 @@ training
 執行save output 即可下載分別的zip檔至本機。
 
 📝 備註
+
 評估指標包括：Chamfer Distance(loss)、準確度（Accuracy）、完整度（Completeness）
