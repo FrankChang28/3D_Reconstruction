@@ -9,8 +9,10 @@
 具體需要掛載有四個folder(7SCENE, training/validate GT point cloud, testing GT point cloud, bonus GT point cloud)，分別對應地址如下:
 
 7SCENE: https://drive.google.com/drive/folders/1qbQWc51AJ-Z7Jq48QdjMJuuMUASCYEt6
+
 training/validate:https://drive.google.com/drive/folders/1tkJhWLj9WNGnnCWaPximkMBtI8ndw4vk
-testing, bonus 可直接用其父目錄:https://drive.google.com/drive/folders/1-x9HSpBliRU2CVHGqZ8YWn6OT3dqEkVJ
+
+testing, bonus可直接用其父目錄:https://drive.google.com/drive/folders/1-x9HSpBliRU2CVHGqZ8YWn6OT3dqEkVJ
 
 1.做法為先新增捷徑至自己的drive
 ![image](https://github.com/user-attachments/assets/8f177dd3-9dbc-40c3-be69-2a33118550c4)
