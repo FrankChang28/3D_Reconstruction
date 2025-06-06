@@ -7,9 +7,9 @@
 本專案使用的是 7-Scenes 資料集。在執行訓練或測試程式碼之前，請完成以下準備步驟：
 
 建議在 Colab 中掛載Google 雲端檔案(省去download時間)
-具體需要掛載有四個folder(7SCENE, training/validate GT point cloud, testing GT point cloud, bonus GT point cloud)，分別對應地址如下:
+具體需要掛載有四個folder(7SCENES, training/validate GT point cloud, testing GT point cloud, bonus GT point cloud)，分別對應地址如下:
 
-7SCENE: https://drive.google.com/drive/folders/1qbQWc51AJ-Z7Jq48QdjMJuuMUASCYEt6
+7SCENES: https://drive.google.com/drive/folders/1qbQWc51AJ-Z7Jq48QdjMJuuMUASCYEt6
 
 training/validate:https://drive.google.com/drive/folders/1tkJhWLj9WNGnnCWaPximkMBtI8ndw4vk
 
@@ -56,11 +56,15 @@ Google Colab
 
 define dataset & related methods
 
-訓練模型
+generate ground truth point cloud 可跳過(已mount gt folder)
+
+training
 
 執行testing
 
 執行bonus
+
+(基本上只要依序執行即可)
 
 📦 輸出結果
 在完成測試與 bonus 部分後，最終結果將會儲存於：
