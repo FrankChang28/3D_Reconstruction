@@ -1,5 +1,6 @@
 # 3D_Reconstruction
 本專案實現了從 RGB-D 輸入進行 3D 點雲重建，使用的是 7-Scenes 資料集
+
 核心模型設計主要參考《Enhanced Camera Relocalization Through Optimized Accelerated Coordinate Encoding Network and Pose Solver》架構作修改
 
 📁 資料集準備
@@ -28,12 +29,19 @@ testing, bonus可直接用其父目錄:https://drive.google.com/drive/folders/1-
 本專案使用以下工具與套件：
 
 torch: 2.5.1+cu124
+
 torchvision: 0.20.1+cu124
+
 opencv: 4.11.0
+
 numpy: 1.26.4
+
 matplotlib: 3.10.0
+
 open3d: 0.19.0
+
 PIL (Pillow): 11.1.0
+
 Google Colab
 
 (執行初始設定區塊，將會自動安裝所需的套件)
