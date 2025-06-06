@@ -70,9 +70,10 @@ training
 在完成測試與 bonus 部分後，最終結果將會儲存於：
 
 ./content/test
+
 ./content/bonus
 
-執行save out 即可下載分別的zip檔至本機。
+執行save output 即可下載分別的zip檔至本機。
 
 📝 備註
 評估指標包括：Chamfer Distance(loss)、準確度（Accuracy）、完整度（Completeness）
